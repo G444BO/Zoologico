@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+</head>
+<body>
+     <header>
+        <h2 style="text-align: center; color: rgb(182, 142, 69);"> WildTopia</h2>
+        <p style="text-align: center; color: rgb(28, 95, 73);"> Bienvenidos al mejor zoologico de todos</p>
+    </header>
+    <hr>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="https://wiwaquito.org/">Pagina oficial</a>
+        <a href="/pages/galeria.html">Galeria</a>
+        <a href="">Acerca</a>
+        <a href="">Contactos</a>
+    </nav>
+    <hr>
+    <!--Formulario de registro-->
+    <form action="#"></form>
+        <label for="">Nombre</label>
+        <br>
+        <imput tye="text" id="Nombre" aria-placeholder="ingrese aqui su nombre" size="12" required>
+        <label for="">Email</label>
+        <br>
+        <imput tye="email" id="Email" aria-placeholder="ingrese aqui su email" size="12" required></imput>
+        <br>
+        <label for="">Contraseña</label>
+        <br>
+        <imput tye="password" id="Contraseña" aria-placeholder="ingrese aqui su contraseña" size="12" required></imput>
+        <br>
+        <imput type="date" id="fecha_nacimiento" required></imput>
+        <imput type="number" id="cargas_familiares"></imput>
+        <label for="#">Genero</label>
+        <br>
+        <label for="masculino">
+            <input type="radio" id="masculino" name="Genero">masculino
+        </label>
+        <label for="femenino">
+            <input type="radio" id="femenino" name="Genero">femenino
+        </label>
+        <label for="otro">
+            <input type="radio" id="otro" name="Genero">otro
+        </label>
+        <br><br>
+        <label for="ciudad">Seleccione sus ciudad</label>
+        <select name="ciudad" id="ciudad">
+            <option value="option" disabled selected>--Seleccionar Opcion--</option>
+            <option value="quito">Quito</option>
+            <option value="cuenca">Cuenca</option>
+            <option value="Guayaquil">Guayaquil</option>
+            <option value="Ibarra">Ibarra</option>
+        </select>
+        <br><br>
+        <label for="foto">Seleccione su foto</label>
+        <br>
+        <input type="file" id="foto">
+        <br><br>
+        <label for="comentarios">Deje sus comentarios</label>
+        <br>
+        <textarea name="comentarios" id="comentarios" cols="30" rows="5"
+        placeholder="Escriba sus comentarios"></textarea>   
+</body>
+</html>
